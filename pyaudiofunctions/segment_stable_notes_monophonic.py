@@ -12,7 +12,7 @@ import stft
 eps = np.finfo(float).eps
 
 """
-segment_stable_notes_monophinic - Segmentation of stable note regions in an audio signal
+segment_stable_notes_monophonic - Segmentation of stable note regions in an audio signal
 
 Complete the function segmentStableNotesRegions() to identify the stable regions of notes in a specific 
 monophonic audio signal. The function returns an array of segments where each segment contains the 
@@ -72,7 +72,7 @@ use, the function might take a while to run (even half a minute in some cases).
 
 """
 
-def segment_stable_notes_monophinic(inputFile = '../../sounds/sax-phrase-short.wav', stdThsld=10, minNoteDur=0.1, 
+def segment_stable_notes_monophonic(inputFile = '../../sounds/sax-phrase-short.wav', stdThsld=10, minNoteDur=0.1, 
                               winStable = 3, window='hamming', M=1024, N=2048, H=256, f0et=5.0, t=-100, 
                               minf0=310, maxf0=650):
     """
