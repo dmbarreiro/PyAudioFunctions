@@ -18,10 +18,10 @@ python compileModule.py build_ext --inplace
 ## Content
 
 Available functions:
-* stft_onset: Computes onset detection (beginning of a musical note) on a wav audio file using the short
+* *stft_onset*: Computes onset detection (beginning of a musical note) on a wav audio file using the short
   time fourier transform.
-* segment_stable_notes_monophonic: Segments monophonic audio in different stable notes regions.
-* compute_inharmonicity_monophonic: Computes the inharmonicity of a monophonic sound using the
+* *segment_stable_notes_monophonic*: Segments monophonic audio in different stable notes regions.
+* *compute_inharmonicity_monophonic*: Computes the inharmonicity of a monophonic sound using the
   harmonic model.
 
 
